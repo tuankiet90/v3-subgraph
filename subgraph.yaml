@@ -5,7 +5,7 @@ schema:
   file: ./schema.graphql
 graft:
   base: QmPrb5mvZj3ycUugZgwLWCvK93jfXfhvfjRXrFk4tRmyCX
-  block: 14292820
+  block: 50659970
 features:
   - nonFatalErrors
 dataSources:
@@ -13,9 +13,9 @@ dataSources:
     name: Factory
     network: mainnet
     source:
-      address: '0x1F98431c8aD98523631AE4a59f267346ea31F984'
+      address: '0x0bba472537562E3d4C94c9D7cb8a75494bB79767'
       abi: Factory
-      startBlock: 12369621
+      startBlock: 50659979
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -42,9 +42,9 @@ dataSources:
     name: NonfungiblePositionManager
     network: mainnet
     source:
-      address: '0xC36442b4a4522E871399CD717aBDD847Ab11FE88'
+      address: '0xb3D74729b94083e610E0b5D5738a4607363259C8'
       abi: NonfungiblePositionManager
-      startBlock: 12369651
+      startBlock: 50659979
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
